@@ -10,9 +10,10 @@ public class GameManager : MonoBehaviour
     public List<GameObject> targets;
     private float spawnRate = 1.0f;
     private int score;
+    public bool isGameActive;
+
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI gameOverText;
-    public bool isGameActive;
     public Button restartButton;
     // Start is called before the first frame update
     void Start()
