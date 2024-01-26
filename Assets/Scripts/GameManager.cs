@@ -18,14 +18,17 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         isGameActive = true;
+        score = 0;
         StartCoroutine(SpawnTarget());
         UpdateScore(0);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       
+
     }
 
     IEnumerator SpawnTarget()
